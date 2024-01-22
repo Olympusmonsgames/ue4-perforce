@@ -1,0 +1,18 @@
+# Set environment variables in this file, per-project
+# You put a version of this file (all sharing the same name) in each of your project's root directories.
+# Set this file as the P4CONFIG environment variable: "p4 set P4CONFIG=YourUserName.p4config" (no quotes).
+# When executing a p4 command or changelist, perforce searches the current and parent directories until
+# it finds a file matching this one's name then reads settings from it.
+#
+# Name of the workspace/folder this file resides in
+# The workspace directory is relative to this file's location, so just put the name of the folder, no slashes
+# P4CLIENT="NameOfMyCurrentWorkspaceRootFolder"
+#
+# Set the IP/Hostname and port to the server (default is [IPorHOSTNAME]:1666)
+# P4PORT=localhost:1666
+#
+# Set this to your P4 Username (useful to log changes as different users from workspace to workspace)
+# P4USER=billted
+#
+# Set the P4IGNORE environment variable to a customized ignore list
+# P4IGNORE=ue5.p4ignore

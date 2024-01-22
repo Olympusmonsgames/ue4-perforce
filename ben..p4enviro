@@ -1,0 +1,16 @@
+# Set environment variables in this file, globally.
+# You put this file in a static directory on your PC.
+# Set this file as the P4ENVIRO environment variable in powershell: "p4 set P4ENVIRO=YourUserName.p4enviro" (no quotes).
+# When executing a p4 command or changelist, Perforce will read variable values from this file.
+#
+# Values set in a P4CONFIG file OVERRIDE those set in a P4ENVIRO file!!
+#
+# Set the IP/Hostname and port to the server. Default is "P4PORT=tcp4:[IPorHOSTNAME]:1666" (no quotes)
+# Set this variable here (instead of in .p4config) if all projects on your PC are on the same server
+P4PORT=localhost:1666
+#
+# Set this to your P4 Username
+P4USER=ben
+#
+# Set the global P4IGNORE environment variable to a static file (overridden by P4CONFIG if set per-workspace)
+# P4IGNORE=[C:\AbsolutePath]\.p4ignore
